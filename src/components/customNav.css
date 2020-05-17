@@ -1,0 +1,9 @@
+.navbar {
+    background-color: #379683;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
