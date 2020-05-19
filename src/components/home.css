@@ -1,0 +1,16 @@
+.home {
+    background-image: url('/assets/me.jpg');
+    display: grid;
+    padding-top: 10px;
+    background-color: gray;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+ 
+.list-group {
+    vertical-align: middle;
+}
+
+.list-group-item {
+    background-color: transparent;
+}

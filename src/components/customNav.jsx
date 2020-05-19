@@ -6,8 +6,8 @@ import './customNav.css';
 export default class customNav extends Component {
     render() {
         return (
-            <Navbar collapseOnSelect expand='md'>
-                <Navbar.Brand className='mx-auto'>Dwayne Rivera</Navbar.Brand>
+            <Navbar sticky='top' collapseOnSelect expand='md'>
+                <Navbar.Brand>DWAYNE RIVERA</Navbar.Brand>
                 <Navbar.Toggle />
 
                 <Navbar.Collapse>
