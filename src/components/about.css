@@ -1,0 +1,17 @@
+.about {
+    background-color: #e9ecef;
+    padding-top: 10px;
+}
+
+.page-name {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-text {
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
