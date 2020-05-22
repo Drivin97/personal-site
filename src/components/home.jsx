@@ -8,6 +8,11 @@ export default class Home extends Component {
     render() {
         return (
             <div className='home'>
+                <Jumbotron>
+                    <p>Hi, my name's</p>
+                    <h1 className='hi'>Dwayne Rivera</h1>
+                    <p>An aspiring software engineer based in New York, NY</p>
+                </Jumbotron>
                 <Image src='./assets/itsme.png'></Image>
                 {/* <ListGroup variant="flush">
                     <ListGroup.Item>New Paltz Alumn</ListGroup.Item>
@@ -15,10 +20,7 @@ export default class Home extends Component {
                     <ListGroup.Item>Determined</ListGroup.Item>
                     <ListGroup.Item>Passionate</ListGroup.Item>
                 </ListGroup> */}
-            <Jumbotron>
-                <h1 className='hi'>Hi, I'm Dwayne Rivera</h1>
-                <p className='based'>An aspiring software engineer based in New York, NY</p>
-            </Jumbotron>
+
             </div>
         )
     };
