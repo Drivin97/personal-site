@@ -3,3 +3,10 @@
 body {
   background-color: white;
 }
+
+.page-name {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 30px;
+}
