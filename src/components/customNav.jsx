@@ -13,8 +13,9 @@ export default class customNav extends Component {
                 <Navbar.Collapse>
                     <Nav className="ml-auto">
                         <Nav.Link eventKey={1} to='/'>ABOUT</Nav.Link>
-                        <Nav.Link eventKey={2} to='/'>RESUME</Nav.Link>
-                        <Nav.Link eventKey={3} to='/'>CONTACT</Nav.Link>
+                        <Nav.Link eventKey={2} to='/'>PROJECTS</Nav.Link>
+                        <Nav.Link eventKey={3} to='/'>SKILLS</Nav.Link>
+                        <Nav.Link eventKey={4} to='/'>CONTACT</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
