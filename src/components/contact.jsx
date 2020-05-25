@@ -16,7 +16,7 @@ export default class Contact extends Component {
                     You can also check my Github and LinkedIn.
                 </p>
 
-                <a href='# '>
+                <a target='_blank' rel='noopener noreferrer' href='mailto:driv91197@gmail.com'>
                     <span title='Email me'><FontAwesomeIcon className='email fa-fw' icon={faEnvelope} size='lg'></FontAwesomeIcon></span>
                 </a>
                 <a target="_blank" rel="noopener noreferrer" href='https://www.github.com/Drivin97'>
