@@ -1,0 +1,21 @@
+.contact {
+    background-color: #f0f4f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.contact-text {
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fa-lg {
+    font-size: 8em;
+    color: black;
+}
+
+.fa-lg:hover {
+    color: black;
+}
