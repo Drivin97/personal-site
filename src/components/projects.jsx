@@ -14,7 +14,7 @@ export default class Projects extends Component {
     
     render() {
         return (
-            <div className='projects'>
+            <div className='projects' id='projects-page'>
                 <h1 className='page-name'>Projects</h1>
                 <Slider className="slider-wrapper">
                     {content.map((item, index) => (

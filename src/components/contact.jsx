@@ -7,7 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 export default class Contact extends Component {
     render() {
         return (
-            <div className='contact'>
+            <div className='contact' id='contact-page'>
                 
                 <h1 className='page-name'>Contact</h1>
 

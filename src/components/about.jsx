@@ -4,7 +4,7 @@ import './about.css';
 export default class About extends Component {
     render() {
         return (
-            <div className='about'>
+            <div className='about' id='about-page'>
                 <h2 className='page-name'>About Me</h2>
                 <p className='about-text'>
                     Welcome to my site! My name is Dwayne Rivera and I am an aspiring software engineer/web programmer in New York, NY.<br />

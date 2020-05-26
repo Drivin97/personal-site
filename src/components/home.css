@@ -5,6 +5,7 @@
     background-color: gray;
     grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
     grid-gap: 15px;
+    min-height: 450px;
 }
  
 .list-group {

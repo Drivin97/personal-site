@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
 body {
   background-color: white;
 }
@@ -10,3 +13,4 @@ body {
   text-decoration: underline;
   padding-top: 30px;
 }
+

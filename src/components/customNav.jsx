@@ -7,15 +7,15 @@ export default class customNav extends Component {
     render() {
         return (
             <Navbar sticky='top' collapseOnSelect expand='md'>
-                <Navbar.Brand>DWAYNE RIVERA</Navbar.Brand>
+                <Nav.Link href='#home-page'><Navbar.Brand>DWAYNE RIVERA</Navbar.Brand></Nav.Link>
                 <Navbar.Toggle />
 
                 <Navbar.Collapse>
                     <Nav className="ml-auto">
-                        <Nav.Link eventKey={1} to='/'>ABOUT</Nav.Link>
-                        <Nav.Link eventKey={2} to='/'>PROJECTS</Nav.Link>
-                        <Nav.Link eventKey={3} to='/'>SKILLS</Nav.Link>
-                        <Nav.Link eventKey={4} to='/'>CONTACT</Nav.Link>
+                        <Nav.Link eventKey={1} href='#about-page'>ABOUT</Nav.Link>
+                        <Nav.Link eventKey={2} href='#projects-page'>PROJECTS</Nav.Link>
+                        <Nav.Link eventKey={3} href='#skills-page'>SKILLS</Nav.Link>
+                        <Nav.Link eventKey={4} href='#contact-page'>CONTACT</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

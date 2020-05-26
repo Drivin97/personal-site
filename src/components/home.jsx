@@ -7,7 +7,7 @@ import './home.css';
 export default class Home extends Component {
     render() {
         return (
-            <div className='home'>
+            <div className='home' id='home-page'>
                 <Jumbotron>
                     <p>Hi, my name's</p>
                     <h1 className='hi'>Dwayne Rivera</h1>

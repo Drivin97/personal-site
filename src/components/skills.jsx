@@ -6,7 +6,7 @@ import './skills.css';
 export default class Skills extends Component {
     render() {
         return (
-            <div className='skills'>
+            <div className='skills' id='skills-page'>
                 <h1 className='page-name'>Skills</h1>
                     <Container>
                         <Image src='./assets/java-logo.jpg' />
