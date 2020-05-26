@@ -7,6 +7,10 @@
     grid-gap: 15px;
     min-height: 450px;
 }
+
+.home > img {
+    padding-top: 40px;
+}
  
 .list-group {
     vertical-align: middle;
