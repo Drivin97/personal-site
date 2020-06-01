@@ -8,10 +8,9 @@
 }
 
 .navbar-brand {
+    display: block;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
