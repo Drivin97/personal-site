@@ -16,6 +16,7 @@ export default class customNav extends Component {
                         <Nav.Link eventKey={2} href='#projects-page'>PROJECTS</Nav.Link>
                         <Nav.Link eventKey={3} href='#skills-page'>SKILLS</Nav.Link>
                         <Nav.Link eventKey={4} href='#contact-page'>CONTACT</Nav.Link>
+                        <Nav.Link eventKey={5} href='/assets/Dwayne Rivera Resume.pdf' target="_blank" rel="noopener noreferrer">RESUME</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

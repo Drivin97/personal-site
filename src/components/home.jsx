@@ -14,13 +14,6 @@ export default class Home extends Component {
                     <p>An aspiring software engineer based in New York, NY</p>
                 </Jumbotron>
                 <Image src='./assets/itsme.png'></Image>
-                {/* <ListGroup variant="flush">
-                    <ListGroup.Item>New Paltz Alumn</ListGroup.Item>
-                    <ListGroup.Item>Aspiring Software Engineer</ListGroup.Item>
-                    <ListGroup.Item>Determined</ListGroup.Item>
-                    <ListGroup.Item>Passionate</ListGroup.Item>
-                </ListGroup> */}
-
             </div>
         )
     };
