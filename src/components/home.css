@@ -1,28 +1,31 @@
 .home {
-    background-image: url('/assets/me.jpg');
+    background-color: #f0f4f7;
     display: grid;
     padding-top: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 15px;
     min-height: 450px;
 }
 
 .me {
-    position: relative;
-    bottom: 0;
+    margin-top: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+    max-width: 500px;
 }
 
 .jumbotron {
     background-color: transparent;
+    margin-top: 40px;
 }
 
 .hi {
     font-size: 50px;
-    color: white;
+    color: black;
 }
 
 .jumbotron > p {
-    color: #e9ecef;
+    color: black;
     margin: 0;
 }
 

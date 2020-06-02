@@ -13,7 +13,7 @@ export default class Home extends Component {
                     <p>An aspiring software engineer based in New York, NY</p>
                 </Jumbotron>
                 <div>
-                    <Image className='me' src='./assets/itsme.png'/>
+                    <Image className='me' src='./assets/me.jpg' fluid/>
                 </div>
             </div>
         )
