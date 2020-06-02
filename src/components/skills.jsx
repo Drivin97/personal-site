@@ -9,15 +9,15 @@ export default class Skills extends Component {
             <div className='skills' id='skills-page'>
                 <h1 className='page-name'>Skills</h1>
                 <Container>
-                    <Image src='./assets/java-logo.jpg' />
-                    <Image src='./assets/react-logo.jpg' />
-                    <Image src='./assets/web-logo.jpg' />
+                    <Image src='./assets/java-logo.jpg' fluid/>
+                    <Image src='./assets/react-logo.jpg' fluid/>
+                    <Image src='./assets/web-logo.jpg' fluid/>
                 </Container>
                 <h1 className='page-name'>Learning</h1>
                 <Container>
-                    <Image src='./assets/PHP-Logo.jpg' />
-                    <Image src='./assets/sql-logo.jpg' />
-                    <Image src='./assets/Python-Logo.jpg' />
+                    <Image src='./assets/PHP-Logo.jpg' fluid/>
+                    <Image src='./assets/sql-logo.jpg' fluid/>
+                    <Image src='./assets/Python-Logo.jpg' fluid/>
                 </Container>
             </div>
         )

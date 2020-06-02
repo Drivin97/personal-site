@@ -2,22 +2,14 @@
     background-image: url('/assets/me.jpg');
     display: grid;
     padding-top: 10px;
-    background-color: gray;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-gap: 15px;
     min-height: 450px;
 }
 
-.home > img {
-    padding-top: 40px;
-}
- 
-.list-group {
-    vertical-align: middle;
-}
-
-.list-group-item {
-    background-color: transparent;
+.me {
+    position: relative;
+    bottom: 0;
 }
 
 .jumbotron {
@@ -32,4 +24,8 @@
 .jumbotron > p {
     color: #e9ecef;
     margin: 0;
+}
+
+.jumbotron {
+    column-span: 2;
 }
