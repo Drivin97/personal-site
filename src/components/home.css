@@ -2,7 +2,7 @@
     background-color: #f0f4f7;
     display: grid;
     padding-top: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 15px;
     min-height: 450px;
 }
@@ -11,7 +11,14 @@
     margin-top: 40px;
     border: 2px solid;
     border-radius: 10px;
+    width: 90%;
     max-width: 500px;
+    transition: transform .2s;
+}
+
+/* Hover effect over image */
+.me:hover {
+    transform: scale(1.2);
 }
 
 .jumbotron {
@@ -31,4 +38,26 @@
 
 .jumbotron {
     column-span: 2;
+}
+
+/* Center elements once they begin to stack */
+@media (max-width: 812px) {
+    .me {
+        margin: 20px 0;
+        border: 2px solid;
+        border-radius: 10px;
+        max-width: 500px;
+    }
+
+    .me:hover {
+        transform: scale(1.1);
+    }
+
+    .me-container {
+        text-align: center;
+    }
+
+    .jumbotron {
+        text-align: center;
+    }
 }
