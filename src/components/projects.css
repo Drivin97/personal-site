@@ -3,6 +3,21 @@
     min-height: 450px;
 }
 
+.project-link {
+	display: block;
+	border: 1px solid;
+	width: 100px;
+	margin: auto;
+	color: black;
+	transition: transform .2s;
+}
+
+.project-link:hover {
+	color: black;
+	text-decoration: none;
+	transform: scale(1.2);
+}
+
 .slide h1 {
 	transition: all 0.3s ease;
 	-webkit-transform: translateY(-20px);
