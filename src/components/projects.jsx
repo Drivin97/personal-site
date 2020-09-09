@@ -26,7 +26,7 @@ const content = [
     {
         title: 'Weather Aoo',
         description: 'Created a weather app web application using HTML, CSS, and vanilla JavaScript. By using the Open Weather Map API, information based on city is requested and shown to the user.',
-        link: 'https://github.com/Drivin97',
+        link: 'https://github.com/Drivin97/weather-app',
         linkTest: 'Github Repo'
     }
 
