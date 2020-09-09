@@ -22,7 +22,14 @@ const content = [
         description: 'The website you see right here! Fully created by me using React and react-bootstrap as well as other npm packages. This site is meant to be minimal and display necessary information for those who want it. Hope you like it!',
         link: 'https://github.com/Drivin97/personal-site',
         linkText: 'Github Repo' 
+    },
+    {
+        title: 'Weather Aoo',
+        description: 'Created a weather app web application using HTML, CSS, and vanilla JavaScript. By using the Open Weather Map API, information based on city is requested and shown to the user.',
+        link: 'https://github.com/Drivin97',
+        linkTest: 'Github Repo'
     }
+
 ];
 
 export default class Projects extends Component {
